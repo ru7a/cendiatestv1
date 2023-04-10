@@ -1,0 +1,54 @@
+getgenv().Settings = {
+getgenv().Cendia
+        Notifications = true,
+    },
+    Silent = {
+        Enabled = true,
+        UseAirPart = true,
+        Prediction = 0.1246,
+        HitChance = 97,
+        ClosesPart = true,
+        UseAimPart = "UpperTorso"
+        AirPart = "Head"
+    },
+    AimAssist = {
+        Enable = true,
+        Toggle = "C",
+        Mode = "Target",
+        AimPart =  {"UpperTorso","LowerTorso","Head"}
+    }, 
+    FOV = {
+        Color = Color3.fromRGB(0, 81, 163), 
+        ShowFOV = false, -- you can change to true if you want 
+        Filled = false,
+        Transparency = 0.6
+        Radius = 39,
+    } 
+
+},
+Tracer = { 
+    Enabled = false,
+    Color = Color3.fromRGB(132, 200, 240),
+    Visble = false
+}
+
+Camlock = { 
+    Main = { 
+        Key = "Q", 
+        Parts = "HumanoidRootPart"
+        Smoothness = true, 
+        UnlockKey "T", 
+        Smoothntess = 0.0041,
+        Prediction = 0.o67
+        Shake = true,
+        ["Shake Power"] = 16, -- don't go above 40 or it will get bladant
+    }
+}, 
+Resolver = {
+    DetectDesync = true,
+    UnderGround = true, 
+},
+WallCheck = true, 
+CheckIfKo = true,
+UnlockedOnDeath = true, 
+},
